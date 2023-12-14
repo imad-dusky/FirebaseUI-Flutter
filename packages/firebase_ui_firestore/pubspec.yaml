@@ -12,7 +12,7 @@ dependencies:
     git:
       url: https://github.com/firebase/flutterfire.git
       path: packages/cloud_firestore/cloud_firestore
-      ref: master
+      ref: feat/firestore-average-sum
   firebase_ui_localizations: ^1.9.0
   flutter:
     sdk: flutter
