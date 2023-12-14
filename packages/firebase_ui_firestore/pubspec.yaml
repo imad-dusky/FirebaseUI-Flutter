@@ -8,7 +8,11 @@ environment:
   flutter: ">=3.3.0"
 
 dependencies:
-  cloud_firestore: ^4.13.6
+  cloud_firestore:
+    git:
+      url: https://github.com/firebase/flutterfire.git
+      path: packages/cloud_firestore/cloud_firestore
+      ref: master
   firebase_ui_localizations: ^1.9.0
   flutter:
     sdk: flutter
